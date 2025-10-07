@@ -33,7 +33,7 @@ header, footer {
 #corpo {
     flex: 1;
     padding: 20px;
-    background-image: url("/imagens/410.jpg"); /* coloque aqui o nome correto da sua imagem */
+    background-image: url("imagens/410.jpg"); /* coloque aqui o nome correto da sua imagem */
     background-size: cover;       /* ocupa toda a tela */
     background-position: center;  /* centraliza a imagem */
     background-repeat: no-repeat; /* evita repetição */

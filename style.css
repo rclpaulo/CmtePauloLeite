@@ -88,7 +88,7 @@
     /* ===== RESTANTE DO ESTILO ===== */
     body {
       margin: 0;
-      background-image: url("/imagens/geral.jpg");
+      background-image: url("imagens/geral.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -99,7 +99,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-image: url("/imagem/m1.jpeg");
+      background-image: url("imagem/m1.jpeg");
       background-size: cover;
     }
 
@@ -125,7 +125,7 @@
     footer {
       text-align: center;
       padding: 20px;
-      background-image: url("/imagem/m1.jpeg");
+      background-image: url("imagem/m1.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
       color: rgb(17, 3, 97);
@@ -133,7 +133,7 @@
     }
 
     #corpo {
-      background-image: url("/imagem/geral.jpg");
+      background-image: url("imagem/geral.jpg");
     }
 
     .ver-tudo {
