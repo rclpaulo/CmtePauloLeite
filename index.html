@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site com Animação de Abertura</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <!-- Animação de abertura -->
+  <div id="intro">
+    <div class="mar"></div>
+    <img src="/imagem/baixados.png" alt="Barco" class="barco">
+    <header id="click">click aqui!</header>
+   
+  </div>
+ 
+  <audio  id="buzina"  src="/som/b2.mp3" ></audio>
+  <!-- Conteúdo do site -->
+  <div id="conteudo">
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Leite</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="corpo">
+    <header>
+        <h1 id="portifolio">Portifólio de Paulo Leite</h1>
+    <nav>
+        <ul class="menu">
+            <li><a onclick=buzina() href="#fainas">Fainas</a></li>
+            <li><a onclick=buzina() href="#contato">Contato</a></li>
+            <li><a onclick=buzina() href="#sobre">Sobre</a></li>
+        </ul>
+    </nav>
+
+    </header>
+    <section>
+        <div id="sobre">
+            <h1 id="mim">Sobre Mim</h1>
+            <p id="sobre_mim">
+                    Meu nome é Paulo Leite, tenho 06 anos de
+                experiência como comandante de rebocador
+                azimutal, fazendo manobras de atracação
+                e desatracação de navios na baia de são
+                Marcos, fainas de reboque e assistência. 
+                Também manobro rebocadores convencionais.
+                Na minha fase de marinheiro trabalhei na 
+                base Camorim Rio de Janeiro, onde tive a 
+                oportunidade de viajar toda a costa do Brasil, 
+                e também trabalhei nas Bacias de Campos e Santos 
+                em operações Offshore de apoio as plataformas de 
+                petróleo, operando em PSV, AHTS e LH. E assim que a 
+                Camorim começou a atuar na Baia de São Marcos, voltei 
+                para trabalhar em minha terra natal, São Luís-MA; onde 
+                assume o cargo de comandante de rebocador.
+
+            </p>
+        </div>
+    </section> 
+    <section>   
+        <div id="fainas">
+            <h1 id="algumas">Algumas fainas em destaque</h1>
+                <ul class="destaque">
+                    <li >
+                        40 dias de assitência ao navio 
+                        Stellar Banner, que encalhou na costa
+                        do Maranão em 2020, no comando do rebocador
+                        Starnav Mira;
+                    </li>
+                    <li>
+                        Operação de combate a incêndio
+                        no CN6 da vale em 2021, no comando do rebocador
+                        Starnav Mira (com poderoso sistema 
+                        fire-fighting);
+                    </li>
+                    <li>
+                        Reboque/Assitência ao navio Spetses
+                        Spirit em 2024, reboque até o fundeadouro 3,
+                        no comando do rebocador C ágata;
+                    </li>
+                    <li>
+                        Assistencia ao navio forte de São Felipe, encalhado 
+                        no canal de acesso ao Porto da Alumar, em 2024;
+                    </li>
+                    <li>
+                        Entre outras fainas de destaque.
+                    </li>
+                </ul>
+        </div>
+       
+    </section>
+    <section class="galeria-section">
+    <h1 id="galeria">Galeria</h1>
+
+    <audio id="somClique" src="/som/b1.mp3"></audio>
+    <div class="ver-tudo">
+        <a class="mao" onclick="abrirGaleria()">Ver fotos e vídeos</a> 
+    </div>
+    </section>
+    <section >
+        <div>
+            <h1 id="dicas">Dicas sobre:</h1>
+            <ul class="destaque">
+                <li>
+                    Navegação: Como criar sua derrota
+                </li>
+                <li>
+                    <a href="/correções.html">
+                        Correção de cartas náuticas: Aprenda a fazer
+                    </a>
+                    
+                </li>
+                <li>
+                    Usando o AIS: Algumas funções e informações
+                </li>
+               
+                
+            </ul>
+        </div>
+        
+    </section>
+    <section>
+        <div id="contato">
+            <h1 id="ctt">Contato</h1>
+            <p id="email">
+                Celular/WhatsApp: (98) 98855-0659 <br>
+                E-mail: rclpaulo@hotmail.com
+            </p>
+            <a class="blog" href="https://comandantepauloleite.blogspot.com/">Visite o Blog</a>
+        </div>
+    </section> 
+    <script src="/barco.js"></script>
+    </body>
+    <footer>© 2025 Paulo Leite</footer>       
+    </html>
+   
+        
+
+  </div>
+
+   <script src="/barco.js"></script>
+   
+</body>
+</html>
