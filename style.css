@@ -235,3 +235,49 @@ h1, p, a {
     margin: 5px;
   }
 }
+
+/* Ícone do menu hambúrguer */
+.hamburguer {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+/* Menu padrão */
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Oculta o menu em telas pequenas */
+@media (max-width: 768px) {
+  .hamburguer {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0066cc;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 999;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+}

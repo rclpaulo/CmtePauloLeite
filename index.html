@@ -6,6 +6,12 @@
   <title>Site com Animação de Abertura</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+  }
+</script>
 <body>
   <!-- Animação de abertura -->
   <div id="intro">
@@ -19,15 +25,16 @@
   <!-- Conteúdo do site -->
   <div id="conteudo">
     <header>
-      <h1 id="portifolio">Portifólio de Paulo Leite</h1>
-      <nav>
-        <ul class="menu">
-          <li><a onclick="buzina()" href="#fainas">Fainas</a></li>
-          <li><a onclick="buzina()" href="#contato">Contato</a></li>
-          <li><a onclick="buzina()" href="#sobre">Sobre</a></li>
-        </ul>
-      </nav>
-    </header>
+  <h1 id="portifolio">Portifólio de Paulo Leite</h1>
+  <nav>
+    <div class="hamburguer" onclick="toggleMenu()">☰</div>
+    <ul class="menu" id="menu">
+      <li><a onclick="buzina()" href="#fainas">Fainas</a></li>
+      <li><a onclick="buzina()" href="#contato">Contato</a></li>
+      <li><a onclick="buzina()" href="#sobre">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
 
     <section>
       <div id="sobre">
