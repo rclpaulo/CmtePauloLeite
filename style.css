@@ -54,7 +54,7 @@ body {
   position: absolute;
   bottom: 5%;
   left: -300px;
-  width: 300px;
+  width: 600px;
   height: auto;
   animation: atravessar 7s linear forwards, balanco 5s ease-in-out infinite;
   z-index: 1;
