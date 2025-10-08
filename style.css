@@ -268,3 +268,9 @@ img, video {
     width: 150px;
   }
 }
+
+@media (max-width: 600px) {
+  #barco {
+    transform: scale(1.8); /* aumenta o tamanho do barco */
+  }
+}
