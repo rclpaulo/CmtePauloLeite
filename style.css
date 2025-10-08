@@ -65,25 +65,29 @@
       opacity: 1;
     }
 
-    /* BOTÃO FIXO NO CANTO DIREITO */
-    #click {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: #007BFF;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 10px;
-      cursor: pointer;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      font-family: Arial, sans-serif;
-      font-size: 1.5rem;
-      font-weight: bold;
-      z-index: 10000;
-    }
-    #click:hover {
-      background: #0056b3;
-    }
+   #click {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 10000;
+  display: inline-block;   /* <-- Garante que o botão não se estenda */
+  width: auto;             /* <-- Impede largura total */
+  border: none;            /* Remove bordas extras */
+}
+
+#click:hover {
+  background: #0056b3;
+}
+
 
     /* ===== RESTANTE DO ESTILO ===== */
     body {
