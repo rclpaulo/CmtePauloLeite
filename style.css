@@ -277,3 +277,13 @@ img, video {
     margin-top: 20px;
   }
 }
+
+#portifolio,
+#mim,
+#algumas,
+#galeria,
+#dicas,
+#ctt {
+  text-align: center;
+  justify-content: center; /* só funciona se o elemento ou seu pai tiver display: flex */
+}
