@@ -255,7 +255,7 @@ img, video {
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) { 
   h1 {
     font-size: 1.3rem;
   }
@@ -267,10 +267,13 @@ img, video {
   .barco {
     width: 150px;
   }
-}
+} */
+
+
 
 @media (max-width: 600px) {
   #barco {
-    transform: scale(1.8); /* aumenta o tamanho do barco */
+    transform: scale(1.8);
+    margin-top: 20px;
   }
 }
