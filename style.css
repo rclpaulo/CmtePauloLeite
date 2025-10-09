@@ -255,21 +255,6 @@ img, video {
   }
 }
 
-/* @media (max-width: 600px) { 
-  h1 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-
-  .barco {
-    width: 150px;
-  }
-} */
-
-
 
 @media (max-width: 600px) {
   #barco {
@@ -277,3 +262,6 @@ img, video {
     margin-top: 20px;
   }
 }
+
+
+
