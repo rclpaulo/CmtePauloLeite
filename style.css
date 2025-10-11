@@ -10,7 +10,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
+  width: 100vw;
 }
 
 /* ===== ANIMAÇÃO DE ABERTURA ===== */
@@ -265,7 +266,8 @@ img, video {
 #algumas,
 #galeria,
 #dicas,
-#ctt {
+#email,
+#contato {
   text-align: center;
   justify-content: center; /* só funciona se o elemento ou seu pai tiver display: flex */
 }
